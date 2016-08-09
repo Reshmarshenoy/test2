@@ -1,0 +1,35 @@
+                <div class="row">
+            <div class="large-12 columns">
+              
+              <div class="bgrd2">
+                
+              
+                        <div class="small-10 columns" id="pd"><h4 id="clr"><b> Portfolio</b></h4>
+                        <p id="clr"><i>For every project that I have done my focus has been on creating the best</br>design, so I spend a lot of time to finish the details.Here are my latest works</br>presented in a modern way.</i></br></p>      
+                           </div>
+         <div class="row">
+        
+         <div class="small-4 columns">
+         <ul class="small-block-grid-4">
+      <img src="p16.jpg" class="img-responsive" alt="Random Name">
+  <img src="p7.jpg" class="img-responsive" alt="Random Name">
+  
+</ul>
+         </div>
+         <div class="small-4 columns">
+         <ul class="small-block-grid-4">
+     <img src="p3.jpg" class="img-responsive " alt="Random Name">
+<img src="p9.jpg" class="img-responsive " alt="Random Name" >
+  
+</ul>
+         </div>
+                  <div class="small-4 columns">
+         <ul class="small-block-grid-4">
+      <img src="p5.jpg" class="img-responsive" alt="Random Name" >
+      
+  <img src="p6.jpg" class="img-responsive" alt="Random Name" >
+  
+</ul>
+         </div>
+         
+         </div>

@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Middleman" %></title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+    <%= stylesheet_link_tag :site %>
+    <%= javascript_include_tag :all %>
+  </head>
+
+  <body class="<%= page_classes %>">
+
+  <div class="row" id="bkimg">
+    <div class="large-12 columns">
+
+    </div>
+
+
+  
+    <ul class="menu align-right">
+
+      <li><a id="clr" href="#">Contact</a></li>
+      <li><a id="clr" href="#">Journal</a></li>
+      <li><a id="clr" href="#">Services</a></li>
+      <li><a id="clr" href="#">Portfolio</a></li>
+      <li><a id="clr" href="#">Resume</a></li>
+      <li><a id="clr" href="#">About</a></li>
+      <li class="active"><a href="#">Home</a></li>
+
+ 
+
+
+    </ul>
+
+
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+      <div class="container-fluid">
+        <div class="col-md-4">
+          <div class="cent">
+            <p>
+              <h4 id="clr"><b>Hello</b></h4>
+            </p>
+
+            <p id="clr"><i>My name is <font color="red"> Brian Cooper</font> . I am a passinate web designer and</br> developer with ten years experience in this domain, focused on </br>building great and premium websites.</i></p>
+
+          </div>
+          <div class="cent1">
+            <a href="about.html" class="alert button">View profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>
+
+
+    <%= yield %>
+    <!-- Footer -->
+<footer class="footer">
+  <div class="row">
+
+  <div class="small-4 columns">
+       <p>Copyright &#169;.All Rights Reserved.
+
+      </p>
+     <i> Made with love by scrills</i>
+  </div>
+<div class="small-4 columns " id="fi">
+
+      <i class="fi-social-facebook size-24" ></i>
+          <i class="step fi-social-twitter size-24"></i>
+          <i class="step fi-social-pinterest size-24"></i>
+
+
+          <i class="step fi-social-linkedin size-50"></i>
+</div>
+</div>
+</footer>
+
+  </body>
+</html>
