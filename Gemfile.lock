@@ -22,6 +22,8 @@ GEM
     fastimage (2.0.0)
       addressable (~> 2)
     ffi (1.9.14-x64-mingw32)
+    haml (4.0.7)
+      tilt
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hashie (3.4.4)
@@ -90,6 +92,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  haml
   middleman-cli
   middleman-core
   middleman-livereload
